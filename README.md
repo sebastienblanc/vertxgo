@@ -18,7 +18,7 @@ mkdir mods
 ```
 
 * Copy the VertxGo module inside the `mods` folder (you can do it by cloning the repo)
-Now we have to provide a model, the convention is that the model resides in the model folder and named `model.json`, i.e `Todo/model/model.json` :
+Now we have to provide a model, the convention is that the model resides in a folder  ```model``` and named `model.json`, i.e `Todo/model/model.json` :
 
 ```
 {"Task":
@@ -32,7 +32,7 @@ Now we have to provide a model, the convention is that the model resides in the 
 
 * You are done ! Make sure you have a ```MongoDb``` instance running and run your App
 ``` vertx run app.js```
-http://s11.postimage.org/5cqyn4r4z/task.png
+
 * Browse to ``localhost:8080``
 ![task list](http://s11.postimage.org/5cqyn4r4z/task.png "task list")
 * You can create, update and delete tasks 
@@ -40,7 +40,7 @@ http://s11.postimage.org/5cqyn4r4z/task.png
 ## Under the hood
 
 This module has been inspired by the vert.x official [Tutorial](http://vertx.io/js_web_tutorial.html). The generated app is based on ```BackBone``` and ```Twitter Bootstrap```.
-In the future, there will also be possible to switch to ```angular``` templates.
+In the future, it will also be possible to switch to ```angular``` templates.
 
 The module itself has been written in ```Groovy``` and uses Groovy's ```SimpleTemplateEngine```. 
 
